@@ -5,22 +5,14 @@ import App from "./App.vue";
 const app = createApp(App);
 app.mount("#app");
 
-const func =
-
-
-    () => {
+const func = () => {
   console.log("hello world");
 };
 
 func();
 
-
 const f = () => {
-
-
-
   console.log("你为什么不自动格式化呢？");
+};
 
-}
-
-f()
+f();
