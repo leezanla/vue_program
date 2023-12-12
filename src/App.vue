@@ -2,9 +2,6 @@
 </script>
 
 <template>
-
 </template>
 
-<style scoped lang="scss">
-
-</style>
+<style scoped lang="scss"></style>

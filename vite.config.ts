@@ -16,6 +16,7 @@ export default defineConfig({
         })
     ],
     resolve: {
+        extensions: [".ts", ".js", ".vue", ".json", ".scss"],
         alias: {
             "@": path.resolve(__dirname, "src")
         }
@@ -38,5 +39,4 @@ export default defineConfig({
             }
         }
     }
-
 });
